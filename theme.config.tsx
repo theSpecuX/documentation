@@ -20,20 +20,47 @@ const config: DocsThemeConfig = {
       description:
         'SpecuX aim to highlight the value of prediction markets, especially when mainstream media conceals crucial information.',
       openGraph: {
-        title: 'SpecuX - Documentation Guide',
+        url: 'https://docs.specux.com/',
+        title: 'SpecuX - Documentation (Guide)',
         description:
           'SpecuX aim to highlight the value of prediction markets, especially when mainstream media conceals crucial information.',
-        // images : []
+        images: [
+          {
+            url: 'https://specux.com/opengraph-image.png',
+            width: 4000,
+            height: 4000,
+            alt: 'SpecuX.com website image',
+            type: 'image/png',
+          },
+        ],
+        siteName: 'SpecuX',
+      },
+      twitter: {
+        handle: '@specuxHQ',
+        cardType: 'summary_large_image',
       },
     };
   },
-  // head: (
-  //   <>
-  //     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-  //     <meta property='og:title' content='Nextra' />
-  //     <meta property='og:description' content='The next site builder' />
-  //   </>
-  // ),
+  head: (
+    <>
+      <link
+        rel='icon'
+        href='https://specux.com/favicon.ico'
+        type='image/x-icon'
+        sizes='16x16'
+      />
+
+      {/* Twitter Metatags */}
+      <meta name='twitter:image:type' content='image/png' />
+      <meta name='twitter:image:width' content='4000' />
+      <meta name='twitter:image:height' content='4000' />
+      <meta name='twitter:image:alt' content='SpecuX.com website image' />
+      <meta
+        name='twitter:image'
+        content='https://specux.com/twitter-image.png'
+      />
+    </>
+  ),
 };
 
 export default config;
