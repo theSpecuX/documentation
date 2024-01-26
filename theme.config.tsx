@@ -21,7 +21,8 @@ const config: DocsThemeConfig = {
         'SpecuX aim to highlight the value of prediction markets, especially when mainstream media conceals crucial information.',
       openGraph: {
         url: 'https://docs.specux.com/',
-        title: 'SpecuX - Documentation (Guide)',
+        title:
+          'SpecuX - Controversial News Prediction Platform Documentation Guide',
         description:
           'SpecuX aim to highlight the value of prediction markets, especially when mainstream media conceals crucial information.',
         images: [
@@ -51,6 +52,14 @@ const config: DocsThemeConfig = {
       />
 
       {/* Twitter Metatags */}
+      <meta
+        name='twitter:title'
+        content='SpecuX - Controversial News Prediction Platform Documentation Guide'
+      />
+      <meta
+        name='twitter:description'
+        content='SpecuX aim to highlight the value of prediction markets, especially when mainstream media conceals crucial information.'
+      />
       <meta name='twitter:image:type' content='image/png' />
       <meta name='twitter:image:width' content='4000' />
       <meta name='twitter:image:height' content='4000' />
