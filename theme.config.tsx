@@ -7,11 +7,11 @@ const config: DocsThemeConfig = {
     link: 'https://github.com/thespecux/documentation',
   },
   chat: {
-    link: 'https://discord.gg/5vr4N6yn',
+    link: 'https://discord.gg/6w7SyZAVGe',
   },
   docsRepositoryBase: 'https://github.com/thespecux/documentation',
   footer: {
-    text: 'SpecuX - News Prediction Platform',
+    text: 'SpecuX - Controversial News Prediction Platform',
   },
 };
 
